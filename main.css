@@ -1,0 +1,36 @@
+body {
+    height: 100%;
+}
+
+.search {
+    margin: 0 auto;
+    width: 700px;
+    height: 60px;
+    /*background: red;*/
+}
+input[type=text]{
+    position: relative;
+    left: 40px;
+    top: 7px;
+    width: 600px;
+    height: 35px;
+    border: 1px;
+    border-radius: 2px;
+    font: 16px arial,sans-serif;
+    padding: 5px 10px;
+    outline: 0;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+input[type=text]:hover{
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.main {
+    width: 272px;
+    height: 300px;
+    margin: 0 auto;
+    /*background: blue;*/
+}
+.logo {
+    position: relative;
+    top: 200px;
+}
