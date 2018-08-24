@@ -1,5 +1,6 @@
 body {
     height: 100%;
+    font-family: arial,sans-serif;
 }
 
 .search {
@@ -33,4 +34,33 @@ input[type=text]:hover{
 .logo {
     position: relative;
     top: 200px;
+}
+.topmenu {
+    width: 100%;
+    position: absolute;
+}
+ul {
+    display: inline-block;
+    font-size: 13px;
+    list-style-type: none;
+    line-height: 24px;
+    margin:10px 10px;
+    padding: 0;
+}
+#right {
+    float: right;
+    margin-right: 100px;
+}
+li {
+    display: inline-block;
+    width:50px;
+    height: 20px;
+}
+li a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+li a:hover {
+    opacity: .85;
+    text-decoration: underline;
 }
