@@ -5,26 +5,29 @@ body {
 
 .search {
     margin: 0 auto;
-    width: 700px;
-    height: 60px;
-    /*background: red;*/
+    width: 484px;
+    height: 44px;
 }
 input[type=text]{
     position: relative;
-    left: 40px;
-    top: 7px;
-    width: 600px;
-    height: 35px;
+    width: 414px;
+    height: 34px;
     border: 1px;
     border-radius: 2px;
     font: 16px arial,sans-serif;
-    padding: 5px 10px;
+    padding: 5px 50px 5px 20px;
     outline: 0;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 input[type=text]:hover{
     box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
+div span img {
+    position: relative;
+    top: -35px;
+    left: 450px;
+}
+
 .main {
     width: 272px;
     height: 300px;
@@ -63,6 +66,23 @@ a div {
     margin-left: 15px;
     margin-right: 15px;
 }
+footer .topmenu {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 30px;
+    height: 35px;
+    width: 100%;
+    color: #666;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+footer{
+    position: fixed;
+    bottom: 35px;
+    right: 10px;
+    width: 100%;
+}
 ul {
     display: inline-block;
     font-size: 13px;
@@ -72,6 +92,28 @@ ul {
 }
 #right {
     float: right;
+}
+.button {
+    position: relative;
+    width: 487px;
+    height: 88px;
+    margin: auto;
+}
+.button input {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    width: 142px;
+    height: 36px;
+    line-height: 27px;
+    margin: 5px;
+    position: relative;
+    top:35px;
+    left: 91.5px;
 }
 li img {
     position: relative;
